@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAN Update Form</title>
+    <style>
+        span {
+            color: tomato;
+        }
+        table,th,tr,td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="background-color:wheat">
+        <div style="background-color:darkred; color: white;">
+            <h5 style="text-align: center;">Request for New PAN Card Or/And Changes or Correction in PAN Data</h5>
+            <p style="text-align: center; font-style: italic;">Fields marked with <span> * </span>(asterik) are
+                mandatory</p>
+        </div>
+        <div style="font-weight: bold;">
+            <table style="width: 100%;">
+                <tr>
+                    <td></td>
+                    <td colspan="2">
+                        <p style="display:inline;"><span>*</span>Whether he is a citizen of India</p>
+                        <div style="display: inline;">
+                            <label for="yes" style="padding-left: 60px;">Yes</label>
+                            <input type="radio" name="" id="yes">
+                            <label for="no" style="padding-left: 60px;">No</label>
+                            <input type="radio" name="" id="no">
+                        </div>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td colspan="2">
+                        <label for="pan"><span>*</span>Permanent Account Number(PAN)</label>
+                        <input type="textbox" name="" id="pan">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="">
+                    </td>
+                    <td colspan="2">
+                        <span>*</span>1.Name
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td colspan="2">
+                        <p style="display:inline;">Title</p>
+                        <div style="display: inline;">
+                            <label for="Mr" style="padding-left: 60px;">Shri/Mr</label>
+                            <input type="radio" name="" id="Mr">
+                            <label for="Mrs" style="padding-left: 60px;">Smt./Mrs.</label>
+                            <input type="radio" name="" id="Mrs">
+                            <label for="Ms" style="padding-left: 60px;">Kumari/Ms</label>
+                            <input type="radio" name="" id="Ms">
+                        </div>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td colspan="2">
+                        <p style="display:inline;">Last Name/Surname</p>
+                        <div style="display: inline;">
+                            <label for="FirstName" style="padding-left: 300px;">First Name</label>                           
+                            <label for="MiddleName" style="padding-left: 300px;">Middle Name</label>
+                            <p>
+                                <input type="textbox" name="" id="LastName" style="padding-left: 10px;">
+                                <input type="textbox" name="" id="FirstName" style="padding-right: 10px;">
+                                <input type="textbox" name="" id="MiddleName" style="padding-right: 10px;">
+                            </p>                        
+                           
+                        </div>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td colspan="2">
+                        <p style="display:inline;"><span>*</span>Name as you would like it printed on the card</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>
